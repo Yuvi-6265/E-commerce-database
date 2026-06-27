@@ -17,23 +17,32 @@ who placed more than 2 (GROUP BY + HAVING).
 8. Find the average, highest, and lowest price of products in each category.
 9. Find the top 5 customers by total spending (ORDER BY SUM(total_amount)
 DESC LIMIT 5).
-
 10.Show the number of unique products ordered by each customer.
-c) Subqueries.
 
+c) Subqueries.
 11.Find customers who placed an order with an amount greater than the average
 order amount (subquery).
+
 12.Find products that have never been ordered (subquery with NOT IN).
+
 13.List customers who ordered at least one product from the "Electronics" category.
+
 14.Get suppliers who provide products that have been ordered more than 100
 times in total.
+
 15.Find the most expensive product(s) using a subquery with MAX().
+
 d) Advanced Filters
+
 16.Show orders placed by customers who live in either Mumbai, Delhi, or
 Bengaluru (IN operator).
+
 17.Show orders where payment mode is NOT UPI or Credit Card (NOT IN).
+
 18.Find customers who have no email address recorded (IS NULL).
+
 19.Show suppliers who are not from the same city as any customer (NOT IN
 subquery).
+
 20.Get the latest 3 orders placed, skipping the first 2 (ORDER BY + LIMIT +
 OFFSET).
