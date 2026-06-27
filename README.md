@@ -17,9 +17,10 @@ who placed more than 2 (GROUP BY + HAVING).
 8. Find the average, highest, and lowest price of products in each category.
 9. Find the top 5 customers by total spending (ORDER BY SUM(total_amount)
 DESC LIMIT 5).
-10.Show the number of unique products ordered by each customer.
 
+10.Show the number of unique products ordered by each customer.
 c) Subqueries.
+
 11.Find customers who placed an order with an amount greater than the average
 order amount (subquery).
 
