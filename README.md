@@ -1,49 +1,131 @@
-# E-commerce-database
-Analyzed an e-commerce database using SQL to solve 20 real-world business problems involving customers, products, suppliers, and orders.
+🛒 E-Commerce Database Analysis using SQL
+📌 Project Overview
+
+This project demonstrates SQL skills by solving 20 real-world business problems using an E-commerce database. The analysis covers customers, products, suppliers, orders, and sales, showcasing the ability to retrieve, analyze, and manipulate relational data using SQL.
+
+The project focuses on writing optimized SQL queries to generate meaningful business insights using joins, aggregations, subqueries, filtering techniques, and sorting operations.
+
+🎯 Project Objectives
+Analyze customer purchasing behavior.
+Explore relationships between customers, products, suppliers, and orders.
+Practice writing real-world SQL queries.
+Generate business insights using relational databases.
+Strengthen SQL problem-solving skills.
+🛠️ Tools & Technologies
+MySQL
+SQL
+MySQL Workbench
+📂 Database Overview
+
+The database consists of multiple related tables, including:
+
+Customers
+Orders
+Order Items
+Products
+Suppliers
+📋 SQL Tasks Completed
+🔹 A. Joins
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL OUTER JOIN (using UNION)
+Multi-table JOIN with filtering
+🔹 B. Aggregations & Grouping
+GROUP BY
+HAVING
+SUM()
+COUNT()
+AVG()
+MAX()
+MIN()
+Top Customers by Spending
+🔹 C. Subqueries
+Scalar Subqueries
+NOT IN
+MAX()
+Nested Queries
+Filtering with Subqueries
+🔹 D. Advanced SQL Filters
+IN Operator
+NOT IN Operator
+IS NULL
+LIMIT
+OFFSET
+ORDER BY
+📊 Business Problems Solved
+
+✔ Fetch products with supplier details.
+
+✔ Retrieve customers and their orders.
+
+✔ Analyze supplier-product relationships.
+
+✔ Simulate FULL OUTER JOIN using UNION.
+
+✔ Filter products by price and supplier city.
+
+✔ Calculate customer order counts.
+
+✔ Compute supplier-wise total sales.
+
+✔ Analyze product pricing by category.
+
+✔ Identify top spending customers.
+
+✔ Count unique products purchased by customers.
+
+✔ Compare orders against average order value.
+
+✔ Identify products never ordered.
+
+✔ Find customers purchasing Electronics.
+
+✔ Detect suppliers providing highly ordered products.
+
+✔ Retrieve the most expensive products.
+
+✔ Filter customer orders by city.
+
+✔ Analyze payment methods.
+
+✔ Identify customers with missing email addresses.
+
+✔ Find suppliers from cities without customers.
+
+✔ Retrieve recent orders using LIMIT and OFFSET.
 
 
+🚀 SQL Concepts Demonstrated
+SELECT Statements
+Filtering (WHERE)
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL OUTER JOIN Simulation
+GROUP BY
+HAVING
+Aggregate Functions
+ORDER BY
+LIMIT & OFFSET
+Subqueries
+Nested Queries
+IN & NOT IN
+IS NULL
+UNION
+💡 Key Learning Outcomes
+Writing efficient SQL queries for real-world business scenarios.
+Understanding relationships between multiple database tables.
+Performing sales and customer behavior analysis.
+Using aggregate functions to summarize business data.
+Applying joins and subqueries to solve complex analytical problems.
+Improving relational database querying and reporting skills.
+👨‍💻 Author
 
-Task: Solve all the below mentioned problems by writing the SQL queries.
-a) Normal Queries
-1. Fetch all products along with their supplier name (INNER JOIN).
-2. Find all customers and their orders, even if they have not placed any (LEFT JOIN).
-3. Get all suppliers and the products they supply, even if no products exist for a supplier (RIGHT JOIN).
-4. Show all customers and all orders (FULL OUTER JOIN simulation using UNION).
-5. List all products priced between ₹5000 and ₹50,000 and supplied from "Mumbai".
-b) Aggregations & Group By
-6. Find the total number of orders placed by each customer and show only those
-who placed more than 2 (GROUP BY + HAVING).
-7. Show each supplier’s total sales value (sum of quantity × price_each).
-8. Find the average, highest, and lowest price of products in each category.
-9. Find the top 5 customers by total spending (ORDER BY SUM(total_amount)
-DESC LIMIT 5).
+Yuvraj Khanna
 
-10.Show the number of unique products ordered by each customer.
-c) Subqueries.
+LinkedIn: https://www.linkedin.com/in/yuvraj-khanna-55ab4616b/
 
-11.Find customers who placed an order with an amount greater than the average
-order amount (subquery).
+GitHub: https://github.com/Yuvi-6265
 
-12.Find products that have never been ordered (subquery with NOT IN).
-
-13.List customers who ordered at least one product from the "Electronics" category.
-
-14.Get suppliers who provide products that have been ordered more than 100
-times in total.
-
-15.Find the most expensive product(s) using a subquery with MAX().
-
-d) Advanced Filters
-
-16.Show orders placed by customers who live in either Mumbai, Delhi, or
-Bengaluru (IN operator).
-
-17.Show orders where payment mode is NOT UPI or Credit Card (NOT IN).
-
-18.Find customers who have no email address recorded (IS NULL).
-
-19.Show suppliers who are not from the same city as any customer (NOT IN
-subquery).
-
-20.Get the latest 3 orders placed, skipping the first 2 (ORDER BY + LIMIT +
-OFFSET).
+Email: khannayuvraj972@gmail.com
